@@ -1,0 +1,219 @@
+.banner {
+  width: 100%;
+  height: 447px;
+  position: relative;
+  overflow: hidden;
+}
+.banner img {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -960px;
+}
+.banner .customized {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  width: 165px;
+  margin-left: -82px;
+}
+.banner .customized .privateBtn1 {
+  width: 167px;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+  display: block;
+  background: url(../img/provide1.png) no-repeat center center;
+}
+.banner .customized .privateBtn1:hover {
+  background: url(../img/provide2.png) no-repeat center center;
+}
+.itemList {
+  overflow: hidden;
+}
+.itemList ul {
+  padding-top: 70px;
+  width: 1400px;
+}
+.itemList ul li {
+  width: 175px;
+  display: block;
+  float: left;
+  text-align: center;
+  margin-right: 163px;
+}
+.itemList ul li i {
+  display: block;
+  width: 101px;
+  height: 76px;
+  margin: 0 auto;
+}
+.itemList ul li i.timeFast {
+  background: url(../img/gt_17.png) no-repeat center center;
+}
+.itemList ul li i.senior {
+  background: url(../img/gt_19.png) no-repeat center center;
+}
+.itemList ul li i.personality {
+  background: url(../img/gt_22.png) no-repeat center center;
+}
+.itemList ul li i.encryption {
+  background: url(../img/gt_24.png) no-repeat center center;
+}
+.itemList ul li p {
+  font-size: 18px;
+  color: #4a4a4a;
+  padding: 10px 0 5px;
+}
+.itemList ul li span {
+  font-size: 14px;
+  color: #9ba0a7;
+}
+h3 {
+  font-size: 30px;
+  color: #4a4a4a;
+  text-align: center;
+  padding: 50px 0 40px;
+}
+.demandDynamics {
+  margin-bottom: 70px;
+}
+.demandDynamics table.wtab {
+  position: relative;
+  z-index: 88;
+  width: 100%;
+}
+.demandDynamics table.wtab tr.thead {
+  line-height: 60px;
+  border-bottom: none;
+}
+.demandDynamics table.wtab th {
+  background: #f3f3f3;
+  color: #4a4a4a;
+  text-align: left;
+  font-size: 18px;
+}
+.demandDynamics table.wtab th.demand {
+  width: 235px;
+  text-indent: 7px;
+  border-top-left-radius: 5px ;
+  border-bottom-left-radius: 5px ;
+}
+.demandDynamics table.wtab th.state {
+  width: 90px;
+  border-top-right-radius: 5px ;
+  border-bottom-right-radius: 5px ;
+}
+.demandDynamics table.wtab th.publicwidth {
+  width: 160px;
+}
+.demandDynamics .marginbox {
+  height: 5px;
+  border-bottom: 1px solid #e9eced;
+  position: relative;
+  z-index: 88;
+  background-color: #fff;
+}
+.demandDynamics .maquee {
+  position: relative;
+  z-index: 87;
+  height: 368px;
+  overflow: hidden;
+}
+.demandDynamics .maquee table {
+  width: 100%;
+}
+.demandDynamics .maquee tr {
+  line-height: 60px;
+  border-bottom: 1px solid #e9eced;
+}
+.demandDynamics .maquee td {
+  text-align: left;
+  color: #666;
+  font-size: 16px;
+  width: 160px;
+}
+.demandDynamics .maquee td:nth-of-type(7) {
+  text-indent: 8px;
+  width: 95px;
+}
+.demandDynamics .maquee td:nth-of-type(6) {
+  width: 140px;
+}
+.demandDynamics .maquee td.iconpub {
+  text-align: left;
+  display: block;
+  width: 235px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: normal;
+  padding: 0 35px 0 60px;
+  height: 60px;
+}
+.demandDynamics .maquee td.update {
+  background: url(../img/gt_31.png) no-repeat left 15px center;
+}
+.demandDynamics .maquee td.design {
+  background: url(../img/gt_34.png) no-repeat left 15px center;
+}
+.demandDynamics .maquee td.provide {
+  background: url(../img/gt_36.png) no-repeat left 15px center;
+}
+.demandDynamics .maquee td.designPrice {
+  color: #ff7519;
+}
+.demandDynamics .maquee td.textindex {
+  text-indent: 15px;
+}
+.demandDynamics .maquee td.statedes {
+  color: #2aa363;
+}
+.demandDynamics .maquee td.complete {
+  color: #ff7519;
+}
+.masterdata {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+.masterdata .databg {
+  background: url(../img/databg.png) no-repeat center center;
+  height: 276px;
+}
+.masterdata .databg ul {
+  width: 1300px;
+  padding-top: 120px;
+}
+.masterdata .databg ul li {
+  font-size: 24px;
+  width: 310px;
+  padding-left: 10px;
+  display: block;
+  float: left;
+  margin-right: 110px;
+  color: #fff;
+  text-align: center;
+}
+.masterdata .databg ul li span {
+  font-size: 42px;
+}
+.cooperationFive {
+  width: 1020px;
+  margin: 0 auto 130px;
+  text-align: center;
+}
+.cooperationFive .fiveBg {
+  background: url(../img/gt_39.png) no-repeat center center;
+  height: 139px;
+}
+.cooperationFive p {
+  padding-top: 40px;
+  font-size: 16px;
+  color: #898989;
+}
+.cooperationFive p span {
+  color: #ec2626;
+}

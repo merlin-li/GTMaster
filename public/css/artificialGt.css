@@ -1,0 +1,183 @@
+.chargeStandard h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #4a4a4a;
+  padding: 60px 0 15px;
+}
+.chargeStandard p.message {
+  font-size: 14px;
+  color: #84878d;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.chargeStandard table {
+  width: 100%;
+}
+.chargeStandard table .thbg {
+  background: #f3f3f3;
+  height: 62px;
+  line-height: 62px;
+  font-size: 18px;
+  color: #4a4a4a;
+  text-align: left;
+}
+.chargeStandard table .xmName {
+  border-top-left-radius: 5px ;
+  border-bottom-left-radius: 5px ;
+  text-indent: 66px;
+  width: 335px;
+}
+.chargeStandard table .detailsExplain {
+  text-indent: 80px;
+}
+.chargeStandard table .xmPrice {
+  width: 145px;
+  text-indent: 33px;
+  border-top-right-radius: 5px ;
+  border-bottom-right-radius: 5px ;
+}
+.chargeStandard table.tabcontent {
+  border: 1px solid #e9eced;
+  border-width: 1px 0 0 1px;
+  line-height: 60px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+.chargeStandard table.tabcontent .colorbg {
+  background: #f2f8eb;
+}
+.chargeStandard table.tabcontent td {
+  border: 1px solid #e9eced;
+  border-width: 0 1px 1px 0;
+}
+.chargeStandard table.tabcontent td.xmcolor {
+  color: #3e4148;
+}
+.chargeStandard table.tabcontent td:nth-of-type(1) {
+  width: 335px;
+  text-indent: 66px;
+}
+.chargeStandard table.tabcontent td:nth-of-type(2) {
+  text-indent: 80px;
+  color: #84878d;
+  font-size: 14px;
+}
+.chargeStandard table.tabcontent td:nth-of-type(3) {
+  width: 145px;
+  text-indent: 33px;
+  color: #ff7519;
+  font-size: 18px;
+}
+.chargeStandard .carefulMatter {
+  font-size: 14px;
+  color: #84878d;
+  background: #fff6e4;
+  line-height: 30px;
+  letter-spacing: 0;
+  margin: 20px 0 0 0;
+  text-indent: 15px;
+}
+.chargeStandard .carefulMatter span {
+  color: #ff1010;
+}
+.batch {
+  border: 1px solid #e8e8e8;
+}
+.batch p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #4a4a4a;
+}
+.batch span {
+  color: #a0a5ac;
+  font-size: 14px;
+}
+.batch ul {
+  padding-top: 30px;
+}
+.batch li {
+  width: 190px;
+  float: left;
+  padding-top: 107px;
+  text-align: center;
+  margin: 20px 104px 50px;
+  letter-spacing: 0;
+}
+.batch li:nth-of-type(1) {
+  background: url(../img/gt_10.png) no-repeat center top;
+}
+.batch li:nth-of-type(2) {
+  background: url(../img/gt_07.png) no-repeat center top;
+}
+.batch li:nth-of-type(3) {
+  background: url(../img/gt_09.png) no-repeat center top;
+}
+.batch li:nth-of-type(4) {
+  background: url(../img/gt_15.png) no-repeat center top;
+}
+.batch li:nth-of-type(5) {
+  background: url(../img/gt_18.png) no-repeat center top;
+}
+.batch li:nth-of-type(6) {
+  background: url(../img/gt_20.png) no-repeat center top;
+}
+.pptList {
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+}
+.pptList ul {
+  width: 1500px;
+  padding-left: 86px;
+  padding-top: 55px;
+  letter-spacing: 0;
+}
+.pptList ul li {
+  width: 200px;
+  float: left;
+  display: block;
+  margin-right: 210px;
+}
+.pptList ul li img {
+  width: 100%;
+  height: 113px;
+}
+.pptList ul li p {
+  font-size: 16px;
+  color: #4a4a4a;
+  padding: 15px 0 60px;
+  text-align: center;
+}
+.advertisement {
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+}
+.advertisement ul {
+  width: 1400px;
+  padding-left: 75px;
+}
+.advertisement ul li {
+  width: 265px;
+  display: block;
+  float: left;
+  margin-right: 130px;
+}
+.gifAdvertisement {
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+  margin-bottom: 140px;
+}
+.gifAdvertisement ul {
+  width: 1400px;
+  padding-left: 30px;
+  padding-top: 40px;
+}
+.gifAdvertisement ul li {
+  width: 370px;
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+.gifAdvertisement ul li img {
+  width: 100%;
+  height: 370px;
+}

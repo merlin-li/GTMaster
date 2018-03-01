@@ -10,18 +10,18 @@ var http = require('http');
 
 var config = require('../config');
 // 数据库连接
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1/nodercms', { useMongoClient: true });
-mongoose.Promise = global.Promise;
+// var mongoose = require('mongoose');
+// mongoose.connect('mongodb://127.0.0.1/gtadmin', { useMongoClient: true });
+// mongoose.Promise = global.Promise;
 
-var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
+// var db = mongoose.connection;
+// db.on('error', console.error.bind(console, 'connection error:'));
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '3005');
 // app.set('port', port);
 
 /**
@@ -30,10 +30,10 @@ var port = normalizePort(process.env.PORT || '3000');
 
 var server = http.createServer(app.callback());
 
-db.once('open', () => {
+// db.once('open', () => {
     server.listen(port);
     console.log('数据库连接成功')
-})
+// })
 
 /**
  * Listen on provided port, on all network interfaces.

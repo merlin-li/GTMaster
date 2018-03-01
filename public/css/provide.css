@@ -1,0 +1,89 @@
+.provide {
+  color: #4a4a4a;
+  margin-bottom: 120px;
+}
+.provide h3 {
+  font-size: 22px;
+  padding: 65px 0 25px;
+  text-align: center;
+}
+.provide .formbox {
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  padding: 70px 0 60px 205px;
+}
+.provide .formbox p {
+  margin-bottom: 55px;
+}
+.provide .formbox .cklist {
+  width: 520px;
+  height: 120px;
+  padding: 0 10px;
+  border: 1px solid #d9d9d9;
+  line-height: 50px;
+  color: #666;
+  font-size: 14px;
+  float: left;
+}
+.provide .formbox input::-webkit-input-placeholder,
+.provide .formbox textarea::-webkit-input-placeholder {
+  color: #abb2b5;
+}
+.provide .formbox label {
+  width: 190px;
+  text-align: right;
+  line-height: 50px;
+  font-size: 16px;
+  margin-right: 20px;
+  display: block;
+}
+.provide .formbox input {
+  border: 1px solid #d9d9d9;
+  width: 520px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  padding: 0 10px;
+  color: #666;
+  float: left;
+}
+.provide .formbox span {
+  font-size: 18px;
+  color: #ee4f60;
+  float: left;
+  line-height: 50px;
+  padding: 0 10px 0 10px;
+}
+.provide .formbox i {
+  width: 25px;
+  height: 25px;
+  display: block;
+  float: left;
+  margin-top: 7px;
+}
+.provide .formbox i.success {
+  background: url(../img/pro_05.png) no-repeat center center;
+}
+.provide .formbox .submitBtn {
+  width: 210px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #ef7f37;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  border-radius: 5px;
+  margin-left: 380px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+.provide .formbox .submitBtn.disabled {
+  background: #b4b4b4 url(../img/pro_09.png) no-repeat left 55px center;
+  text-indent: 40px;
+}
+.provide .formbox .successTip {
+  color: #80b83b;
+  font-size: 14px;
+  text-align: center;
+}
